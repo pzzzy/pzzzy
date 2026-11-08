@@ -1,47 +1,52 @@
-# Luke Schneider
+# pzzzy
 
-Technical operations leader and hands-on software builder working across secure systems, macOS, Go, Python, media infrastructure, hardware integration, and evidence-first security research.
+IT operations, systems engineering, security and practical automation.
 
-I spent more than 18 years leading public-facing broadcast and technology operations: servers, storage, fiber networks, production systems, remote facilities, incident response, documentation, vendors, and major changes with zero broadcast downtime. My current work turns that operational discipline into tested open-source software and responsible security tooling.
+I bring more than 20 years of hands-on technical operations and user support experience. At RCTV, I was the sole IT and security owner for a five-person organization, supporting mixed-platform servers, network storage, fiber networks and continuous broadcast operations. I led the technical work for two facility moves without broadcast downtime during either transition.
 
-Based near Boston, Massachusetts. Available for remote US roles spanning technical operations, systems engineering, security analysis, developer tooling, media technology, and applied AI automation.
+My independent projects apply that operational experience to software: clear failure behavior, careful permissions, useful diagnostics, reproducible checks and documentation for the next person maintaining the system.
 
-## Featured work
+Open to fully remote US roles in IT operations, systems and network engineering, technical support, security and applied AI automation.
 
-### Security research and defensive tooling
+[LinkedIn](https://www.linkedin.com/in/luke-schneider-040329124/)
 
-- [**Surfaceproof**](https://github.com/pzzzy/surfaceproof) — evidence-first auditing of explicitly scoped public web artifacts. Exact-host containment, hard request/byte budgets, contextual classification, redaction by default, JSON/Markdown/SARIF output, and fingerprint-only run comparison.
-- [**Responsible Security Research**](https://github.com/pzzzy/responsible-security-research) — six sanitized case studies covering browser-delivered credentials, JavaScript/source-map review, passive attack-surface analysis, publication-state integrity, renderer security, and bounded negative results.
+## Selected projects
 
-### Systems, networking, and hardware
+### Systems and networking
 
-- [**rongta-f11-open**](https://github.com/pzzzy/rongta-f11-open) — clean-room, blob-free driver and PDF printing stack for the Rongta F11, with Swift, Go, USB protocol work, tested releases, and reproducible verification.
-- [**macftpd**](https://github.com/pzzzy/macftpd) — Go FTP service with HTTP administration, JSON APIs, users/groups, permission controls, storage-root containment, launchd deployment, Cloudflare examples, smoke tests, and security documentation.
-- [**eversmart**](https://github.com/pzzzy/eversmart) — privacy-conscious authenticated utility-data retrieval and local smart-meter dashboard using Python and Opower/Eversource workflows.
+- **[macftpd](https://github.com/pzzzy/macftpd)**: Go FTP/FTPS and HTTP file service for macOS. Includes user and group permissions, storage-root containment, transactional uploads, recovery features, launchd deployment and a documented release gate.
+- **[Rongta F11 Open Driver](https://github.com/pzzzy/rongta-f11-open)**: Clean-room Swift/Go printing stack with USB protocol work, independent generated-stream validation and macOS/Linux CUPS and AirPrint integration. Tests validate the encoded output before it reaches the printer.
 
-### Native Apple software and media
+### Security and evidence
 
-- [**nesn-player-macos**](https://github.com/pzzzy/nesn-player-macos) — native Swift macOS player for authenticated subscribers using AVFoundation and FairPlay, without transcoding or DRM bypass.
-- [**macwamp**](https://github.com/pzzzy/macwamp) — native Apple Silicon Winamp-classic recreation in Swift/AppKit with local media import and playback.
+- **[Surfaceproof](https://github.com/pzzzy/surfaceproof)**: Python defensive CLI for reviewing explicitly scoped public web artifacts. Exact-host restrictions, request and byte budgets, contextual classification and redacted JSON, Markdown and SARIF reports keep collection bounded and findings reviewable.
+- **[Responsible Security Research](https://github.com/pzzzy/responsible-security-research)**: Six sanitized case studies covering public-artifact review, publication-state boundaries, renderer behavior and bounded negative results. All identifying details and fixtures are synthetic.
 
-## Engineering principles
+### Embedded systems and applied AI
 
-- Verify the real artifact and user-visible result—not merely the build command.
-- Treat authorization, privacy, scope, and evidence handling as engineering requirements.
-- Prefer small, auditable systems with explicit failure behavior and reproducible checks.
-- Distinguish observations, inferences, false positives, unknowns, and confirmed impact.
-- Build for operators: useful defaults, clear status, runbooks, and honest limitations.
+- **[QuotaPanel ESP32](https://github.com/pzzzy/quotapanel-esp32)**: Experimental ESP32-S3 desk display with direct HTTPS polling, board-owned OAuth, reboot-persistent usage history, offline voice alerts and signed Wi-Fi updates. It runs without a host bridge after setup. Experimental alpha; see the repository for hardware, credential-storage and API limitations.
+- **[Haunted Receipt](https://github.com/pzzzy/haunted-receipt)**: Python/FastAPI event-operations prototype combining intake, thermal receipts, staff scanning and optional OpenRouter-backed image and proof workflows. Includes mock-AI and dry-run printing modes for demonstrations with synthetic data.
 
-## Technologies
+More projects: [Eversmart](https://github.com/pzzzy/eversmart) for private utility-data retrieval and local dashboards; [NESN Player for macOS](https://github.com/pzzzy/nesn-player-macos) for authenticated subscriber playback with AVFoundation and FairPlay.
 
-**Languages:** Go, Python, Swift, JavaScript, shell, SQL  
-**Platforms:** macOS, Linux, Windows, iOS, AWS, Azure, Cloudflare  
-**Systems:** REST/JSON APIs, FastAPI, SQLite/SQLAlchemy, networking, storage, USB, AVFoundation, media pipelines, background services, CI/CD  
-**Security:** passive public-surface analysis, static web artifacts, evidence minimization, redaction, SARIF, threat modeling, responsible disclosure  
-**Operations:** incident response, root-cause analysis, SOPs, continuity, vendor coordination, technical leadership, broadcast and AV infrastructure
+## Background and tools
+
+- **Workplace IT:** macOS, Windows, Linux, Okta, Jamf, Intune and Google Workspace.
+- **Infrastructure:** mixed-platform servers, storage, fiber and 10Gb networking, Cisco, Ubiquiti/UniFi, remote access, AWS and Azure.
+- **Automation:** PowerShell, Python, Bash, JavaScript, SQL, Git and HTTP/JSON APIs.
+- **Project work:** Go, Swift, C/C++, FastAPI, SQLite, ESP32, USB and media pipelines.
+
+I use AI for practical integrations and AI-assisted development, with human review of results.
+
+## How I work
+
+- Reproduce the problem and verify the actual artifact or user-visible result.
+- Document setup, recovery, limitations and the boundary between tests and real-world evidence.
+- Treat permissions, privacy and authorization as design requirements.
+- Keep observations, inferences and confirmed results distinct.
 
 ## Contact
 
-For project questions, use the relevant repository's Issues or Discussions. For sensitive security matters, follow that repository's `SECURITY.md` and use a private GitHub Security Advisory.
+For professional opportunities, connect with me on [LinkedIn](https://www.linkedin.com/in/luke-schneider-040329124/).
 
-[GitHub](https://github.com/pzzzy)
+For project questions, use the relevant repository's Issues or Discussions. For sensitive security reports, follow that repository's `SECURITY.md` and use its private reporting route.
